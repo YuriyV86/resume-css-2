@@ -1,1 +1,112 @@
+/* lesson 4 */
+/* task1 */
+.lesson-four-task-one > .btn:hover{
+  color:red;
+  background: yellow;
+}
 
+/* task2 */
+.lesson-four-task-two .link:hover +.title{
+  background: green;
+}
+
+/* task3 */
+.lesson-four-task-three > .link:visited {
+  color:yellow;
+}
+
+/* task4 */
+.lesson-four-task-four > #sidebar > .link:link {
+  color: red;
+}
+
+/* task5 */
+.lesson-four-task-five > .btn:active{
+  background: blue;
+}
+
+/* task6 */
+.lesson-four-task-six > .btn:focus{
+  background: orange;
+  color: orange;
+}
+
+/* task7 */
+/* завдання посталене дуже "не читаємим" і складним для розуміння. 
+так на 100% і не зрозумів що саме вимагалось в завданні */
+.lesson-four-task-seven > div#target:target{
+  background: green;
+  color: green;
+}
+
+/* task8 */
+.lesson-four-task-eight #checkbox:checked~#target {
+  background: blue;
+  color: white;
+}
+
+/* task9 */
+.lesson-four-task-nine p:lang(uk) {
+  color: blue;
+}
+
+/* task10 */
+.lesson-four-task-ten *:enabled:read-write {
+  color: red;
+  background: yellow;
+}
+
+/* task11 */
+.lesson-four-task-eleven input:disabled {
+  background: yellow;
+}
+
+/* task12 */
+.lesson-four-task-twelve input:read-write {
+  background: yellow;
+}
+
+/* task13 */
+.lesson-four-task-thirteen input:read-only {
+  background: yellow;
+}
+
+/* task14 */
+.lesson-four-task-fourteen input:valid {
+  background: green;
+}
+
+.lesson-four-task-fourteen input:invalid {
+  background: red;
+}
+
+/* task15 */
+.lesson-four-task-fifteen input:optional {
+  background: red;
+}
+
+/* task16 */
+.lesson-four-task-sixteen input#quantity:out-of-range {
+  color: red;
+}
+
+/* task17 */
+.lesson-four-task-seventeen input#quantity:in-range {
+  color: red;
+}
+
+/* task18 */
+.lesson-four-task-eighteen input:placeholder-shown {
+  background: red;
+}
+
+/* task19 */
+.lesson-four-task-nineteen > .btn-group:focus-within {
+  background: yellow;
+  color: white;
+}
+
+/* task20 */
+.lesson-four-task-twenty input:invalid {
+  background: red;
+}
